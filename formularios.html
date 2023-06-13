@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssformularios.css" />
+    <title>Document</title>
+</head>
+<body>
+   <div class="club"> <h1>El Club Viejuner Form</h1>
+    <h2>Admisiones</h2>
+</div> 
+ 
+    <form action="viejos.php" target="_blank" method="post">
+        <fieldset>
+            <legend>Tú</legend>
+        <label for=id="name">Nombre</label><br>
+        <input type="text" id="name" name="name" autofocus placeholder="Aquí va tu nombre" ><br> 
+        <label for=id="apellidos">Apellidos</label>   <br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Escribe aquí tus apellidos"><br>
+        <label for=id="edad">Edad</label>   <br>
+        <input type="number" id="edad" name="edad" placeholder="Y aquí tu edad"><br>
+     <p>¿Cuál es tu sexo?</p>
+        <input type="radio" id="Mujer" name="sexo" value="Mujer">
+        <label for="Mujer">Mujer</label>
+        <input type="radio" id="Hombre" name="sexo" value="Mujer">
+        <label for="Hombre">Hombre</label>
+        <input type="radio" id="Prefieronodecirlo" name="sexo" value="Prefieronodecirlo">
+        <label for="Prefieronodecirlo">Prefiero no decirlo</label>
+      <p>¿Te sientes viejuner?</p>
+        <input type="checkbox" id="viejunersi" name="viejunersi" value="si">
+        <label for="viejunersi"> Sí, me siento viejuner</label><br>
+<p>¿Nos cuentas algo sobre tí?</p>
+        <textarea rows="10" cols="70" placeholder="Escríbelo aquí"></textarea><br>
+ <fieldset>
+        <legend>Tus circunstacias</legend>
+        <label for=id="email">Correo Electrónico</label><br>
+        <input type="email" id="email" name="email" placeholder="Escribe tu e-mail" ><br> 
+        <label for=id="tel">Teléfono</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="Y tu teléfono aquí" >
+        <br> 
+        <br> 
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Reestablecer">
+    
+</fieldset>
+</form>
+<br> 
+<br> 
+<br> 
+<div class="policia">
+    <h1>Ladronzuelos de la 5a edad</h1>
+    </div>
+<form action="ladrozuelos.php" target="_blank" method="post">
+    <fieldset>
+        <legend>Registro de Robos</legend>
+    <label for=id="date">Día</label><br>
+    <input type="date" id="date" name="date" autofocus ><br> 
+    <label for=id="time">Hora</label><br>
+    <input type="time" id="time" name="time"><br> 
+    <label for=id="color">Color</label><br>
+    <input type="color" id="color" name="color"><br>
+    <label for="range">Rango de Precio:</label><br>
+    <input type="range" id="precio" name="precio" min="0" max="2500" ste="1">
+<h3> Tipo de bicicleta </h3>
+<p>Paseo</p>
+    <select name="paseo">
+        <option value="paseo1">Señorial</option>
+        <option value="paseo2">Anti-Plebeyos</option>
+        <option value="paseo3">Porencimadelhombro</option>
+      </select>
+<p>Montaña</p>
+    <select name="montaña">
+        <option value="montaña1">Gamusinos</option>
+        <option value="montaña2">Hueleflores premium</option>
+        <option value="montaña3">Fango Lover</option>
+    </select>
+<p>Carreras</p>
+    <select name="carreras">
+        <option value="carreras1">Metroymedio</option>
+        <option value="carreras2">3 de la tarde. Fluorescente edition</option>
+        <option value="carreras3">Grupitors</option>
+  </select>
+      <p> Accesorios</p>
+      <select name="Accesorios" size="3" multiple>
+        <option>Ruedines</option>
+        <option>Pegatinas</option>
+        <option>Cestita</option>
+        <option>Bomba de aire</option>
+        <option>Timbre</option>
+        <option>Foco</option>        
+        </select>
+    <p>¿Qué marca era</p>
+    <input list="marca" name="marca">
+      <datalist id="marca">
+        <option value="specialized">
+        <option value="trek">
+        <option value="merida">
+        <option value="scott">
+        <option value="giant">
+        <option value="cube">
+        <option value="lapierre">
+        <option value="orbea">
+        <option value="cannondale">
+        <option value="bmc">
+        <option value="canyon">
+        <option value="look">
+        <option value="protek">
+        <option value="megamo">
+        <option value="pinarello">
+        <option value="bianchi">
+        <option value="bh">
+        <option value="factor">
+        <option value="ghost">
+        <option value="cervélo">
+        <option value="argon">
+</fieldset> </form> </div> 
+<br>
+<br>
+<input type="submit" value="Enviar ahora">
+<input type="reset" value="Reestablecer ahora">
+</body>
+</html>
+

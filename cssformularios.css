@@ -1,0 +1,44 @@
+* {
+    font-style:oblique ;
+}
+
+h1 {
+   
+    font-size: rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(251, 92, 119)
+    font-size: rem;
+}
+
+form {
+    color: black;
+    background-color: rgb(255, 234, 188);
+    font-size: rem;}
+
+.club {
+        width: 100%;
+        border: 5px solid black;
+        padding: 10px;
+        margin: 0px;
+        background-color: rgb(251, 92, 119);
+        color: white;)
+      }
+
+.policia {
+        width: 100%;
+        border: 5px solid white;
+        padding: 10px;
+        margin: 0px;
+        background-color: black;
+        color: white;)
+      }
+
+p {
+    
+        font-weight: bold;
+}
+
+
